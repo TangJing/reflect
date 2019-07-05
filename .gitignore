@@ -1,0 +1,7 @@
+/src/__pycache__
+/src/.pypirc
+/src/reflect.egg-info
+/src/example/__pycache__/*.pyc
+/src/dist
+__pycache__
+*.pypirc
