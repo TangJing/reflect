@@ -1,24 +1,17 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
-#############################################
-# File Name: setup.py
-# Author: LiangjunFeng
-# Mail: zhumavip@163.com
-# Created Time:  2018-4-16 19:17:34
-#############################################
-
-from setuptools import setup, find_packages            #这个包没有的可以pip一下
+from setuptools import setup, find_packages
 
 setup(
     name = "reflect",      #这里是pip项目发布的名称
-    version = "1.0.0",  #版本号，数值大的会优先被pip
+    version = "1.0.0",     #版本号，数值大的会优先被pip
     keywords = ("pip", "reflect","featureextraction"),
     description = "An reflect class",
     long_description = "An reflect class",
     license = "MIT Licence",
 
-    url = "https://github.com/LiangjunFeng/SICA",     #项目相关文件地址，一般是github
+    url = "https://github.com/TangJing/reflect",     #项目相关文件地址
     author = "T.D",
     author_email = "yeihizhi@163.com",
 
